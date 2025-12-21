@@ -619,7 +619,6 @@ def test_tamanhos_diferentes():
         print(f"✅ Criado: {caminho}")
 
     print("\n✨ CONCLUÍDO! Pasta 'Lista_Exercicios_StoryMode' criada com sucesso.")
-    print("📂 Agora cada questão tem sua própria pasta com README, código e teste.")
 
 if __name__ == "__main__":
     gerar_conteudo()
