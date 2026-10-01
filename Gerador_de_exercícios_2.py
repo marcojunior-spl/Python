@@ -375,7 +375,7 @@ def test_esparsa():
 """
 
     # Gerar os arquivos
-    print("🚀 Expandindo o universo... Criando Unidades 9 e 10...")
+    print(" Expandindo o universo... Criando Unidades 9 e 10...")
     for caminho, conteudo in arquivos.items():
         diretorio = os.path.dirname(caminho)
         if not os.path.exists(diretorio):
@@ -383,9 +383,9 @@ def test_esparsa():
         
         with open(caminho, "w", encoding="utf-8") as f:
             f.write(conteudo.strip())
-        print(f"✅ Criado: {caminho}")
+        print(f" Criado: {caminho}")
 
-    print("\n✨ ATUALIZAÇÃO CONCLUÍDA! Confira as novas pastas na Unidade 9 e 10.")
+    print("\n ATUALIZAÇÃO CONCLUÍDA! Confira as novas pastas na Unidade 9 e 10.")
 
 if __name__ == "__main__":
     gerar_conteudo_final()
